@@ -1,0 +1,561 @@
+*{
+            margin:0;
+            padding:0;
+            font-family:Arial, Helvetica, sans-serif;
+            overflow-x:hiddn;
+        }
+        header{
+            width:100%;
+            height:10vh;
+            background-color: black;
+        }
+        img{
+            width:100px;
+            height:10vh;
+        }
+        ul{
+            list-style-type: none;
+            display:flex;
+            justify-content:start;
+            align-items: center;
+            gap:30px;
+            color: aliceblue;
+            
+            
+        }
+        nav{
+            color:aliceblue;
+            display: flex;
+            justify-content: space-between;
+        }
+        .icon{
+            width: 20px;
+            height: 20px;
+            color: black;
+        }
+        .search{ 
+            width:20px;
+            height:20px;
+            /* display: flex; */
+            /* align-items: center; */
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+        }
+        .flash{
+            width:15px;
+            height: 20px;
+            
+        }
+        .bars{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            gap: 20px;
+        }
+        .button1{
+            background-color: rgb(16, 12, 12);
+            color: aliceblue;
+            width: 150px;
+            height: 35px;
+            font-size:15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-color: aliceblue;
+        }
+        .first{
+            width:100%;
+            background-image: url("/images/PUMA-FOREVER-FASTER_BRAND-CAMPAIGN_Jack-Grealish.jpg"); 
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+            height: 75vh;
+        }
+        .first-text{
+            color: aliceblue;
+            display:flex;
+            justify-content:end;
+            text-align:center;
+            padding-top: 200px; 
+            padding-right:50px;
+            
+        }
+        .buttonfirst1{
+            padding:40px;
+
+        }
+        .buttonfirst{
+            color: black;
+            background-color: aliceblue;
+            width: 100px;
+            height: 40px;
+            font-size:15px;
+            justify-content: center;
+            align-items: center;
+            border: none;
+        }
+        .top{
+            width:100%;
+            height:6vh;
+            background-color: rgb(248, 248, 250);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .imgfirst{
+            width:100%;
+            height:75vh;
+            object-fit:cover;
+        }
+        .second{
+            width: 100%;
+            height: 50vh;
+            background-color: rgb(244, 242, 246);
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .round{
+            background-color: rgb(163, 29, 29);
+            width: 120px;
+            height:16vh;
+            border-radius:80px;
+            margin:20px;
+            border:double 5px rgb(244, 242, 235);
+        }
+        .round1{
+            color: rgb(238, 245, 181);
+            font-size: 13px;
+            padding-top:40px;
+            text-align: center;
+        }
+        .text{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap:wrap;
+            text-align:center;
+        }
+        .circle{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            gap:20px;
+        }
+        .third{
+            width:100%;
+            height: 71vh;
+            background-image: url("/images/pumadark.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .third-text{
+            color: aliceblue;
+            display:flex;
+            justify-content:end;
+            text-align:end;
+            padding-top: 200px; 
+            padding-right:50px;
+        }
+        .buttonthird1{
+            padding-top:30px;
+        }
+        .cards{
+            width:100%;
+            height:60vh;
+            background-color: rgb(251, 251, 251);
+            display: flex;
+            justify-content: space-evenly;
+            padding-top:40px;
+            gap: 10px;
+            margin-right:30px;
+        }
+        .cards1{
+            width:480px;
+            height:60vh;
+            background-image: url("/images/formula1.avif");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .cards2{
+            width:480px;
+            height:60vh;
+            background-image: url("/images/ferrari.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .cards3{
+            width:480px;
+            height:60vh;
+            background-image: url("/images/pumaxbmw.webp");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .card1text{
+            color:aliceblue;
+            display:flex;
+            justify-content: center;
+            padding-top: 420px;
+            font-size:12px;
+            
+        }
+        .imgcard{
+            width: 100%;
+            height: 100%;
+            object-fit:cover;
+        }
+        .five{
+            width:100%;
+            height:60vh;
+            background-color: rgb(26, 26, 105);
+            margin-top:50px;
+        }
+        .five1{
+            color: aliceblue;
+            padding-left: 30px;
+            padding-top:40px;
+        }
+        .button2{
+            color: black;
+            background-color: aliceblue;
+            width: 150px;
+            height: 35px;
+            font-size:15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-color: rgb(3, 10, 16);
+        }
+        .but{
+            margin-top:10px ;
+        }
+        .space{
+            width:100%;
+            height:20vh;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+        }
+        .axis{
+               display: flex;
+               padding:15px;
+        }
+        .axisimg{
+            width:150px;
+            height:50px;
+            object-fit:contain;
+        }
+        .six{
+            width:100%;
+            height:72vh;
+            background-image: url("/images/black.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+            .six-text{
+            color: aliceblue;
+            display:flex;
+            justify-content:end;
+            text-align:end;
+            padding-top: 200px; 
+            padding-right:50px;
+            
+        }
+        .buttonsix1{
+            padding-right:10px;
+            padding-top: 20px;
+
+        }
+        .buttonsix{
+            color: black;
+            background-color: aliceblue;
+            width: 150px;
+            height: 40px;
+            font-size:15px;
+            justify-content: center;
+            align-items: center;
+            border: none;
+        }
+.seven,.eleven{
+    display:flex;
+    overflow-x:scroll;
+    margin:30px;
+    gap: 20px;
+    margin-top:60px;
+}
+.card2{
+    background-color: rgb(255, 254, 254);
+    width:300px;
+    height:max-content;
+    flex-shrink:0;
+    color: rgb(248, 249, 250);
+}
+.cards8{
+            width:100%;
+            height:60vh;
+            background-color: rgb(251, 251, 251);
+            display: flex;
+            justify-content: space-evenly;
+            padding-top:40px;
+            gap: 20px;
+            margin-right:30px;
+        }
+        .cards81{
+            width:480px;
+            height:60vh;
+            gap:20px;
+            background-image: url("/images/rcbnew.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .cards82{
+            width:480px;
+            height:60vh;
+            gap:20px;
+            background-image: url("/images/mostro1.avif");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .cards83{
+            width:480px;
+            height:60vh;
+            gap:20px;
+            background-image: url("/images/kidsuper-puma-2025-collection-4.webp");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .card8text{
+            color: aliceblue;
+            display:flex;
+            justify-content: center;
+            padding-top:400px;
+            font-size:13px;
+        }
+.sevenimg{
+  width:100%;
+  height:350px;
+  object-fit:cover;
+}
+.ms{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+    color: black;
+    font-size:12px;
+}
+.space2{
+    width:100%;
+    height:25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space2-1{
+    text-align: center;
+}
+.space3{
+    width:100%;
+    height:10vh;
+}
+.space33{
+    display:flex;
+    padding-left: 20px;
+    padding-top:70px;
+}
+.ten{
+    background-image:url("/images/frame3.jpg");
+    object-fit:cover;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    width:100%;
+    height: 75vh;
+}
+.ten1{
+    color: rgb(1, 5, 9);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top:200px ;
+}
+.buttonten{
+            padding-right:10px;
+            padding-top: 20px;
+
+        }
+        .buttonten1{
+            color: rgb(249, 247, 247);
+            background-color: rgb(3, 7, 10);
+            width: 200px;
+            height: 40px;
+            font-size:15px;
+            justify-content: center;
+            align-items: center;
+            border: none;
+        }
+.twelve{
+    display:flex;   
+    margin:30px;
+    gap: 20px;
+    margin-top:60px;
+}
+.twelve{
+            width:100%;
+            height:45vh;
+            background-color: rgb(251, 251, 251);
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            margin: auto;
+            padding-top:40px;
+            gap:15px;
+        }
+        .twelve1{
+            width:280px;
+            height:45vh;
+            background-image: url("/images/running.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .twelve2{
+            width:280px;
+            height:45vh;
+            background-image: url("/images/foo.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .twelve3{
+            width:280px;
+            height:45vh;
+            background-image: url("/images/training.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .twelve4{
+            width:280px;
+            height:45vh;
+            background-image: url("/images/studio.avif");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .twelve5{
+            width:280px;
+            height:45vh;
+            background-image: url("/images/basket.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .twelvetext{
+            color: aliceblue;
+            display: flex;
+            justify-content:start;
+            padding-top:300px;
+            font-size:11px;
+            padding-left:15px;
+        }
+.thirty8{
+            width:100%;
+            height:45vh;
+            background-color: rgb(251, 251, 251);
+            display:flex;
+            justify-content: center;
+           
+            padding-top:40px;
+            gap: 20px;
+        }
+        .thirty81{
+            width:350px;
+            height:45vh;
+            background-image: url("/images/yellow.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .thirty82{
+            width:350px;
+            height:45vh;
+            background-image: url("/images/blue.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .thirty83{
+            width:350px;
+            height:45vh;
+            background-image: url("/images/yellow1.avif");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .thirty84{
+            width:350px;
+            height:45vh;
+            background-image: url("/images/yellow3.jpg");
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+        .card85text{
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+            padding-top:300px;
+            font-size:11px;
+        }
+.ms{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+    color: black;
+    font-size:12px;
+}
+footer{
+    background-color: rgb(28, 27, 27);
+    width: 100%;
+    height:60vh;
+    display: flex;
+}
+.footer1{
+    display: flex;
+    gap:200px;
+    padding-left:100px;
+    align-items: center;
+}
+.foot1{
+    color: aliceblue;
+    line-height:30px;
+
+}
+.foot2{
+    padding-bottom:190px;
+}
+.yt{
+    width:40px;
+    height:40px;
+    background-color: aliceblue;
+    border-radius:20px;
+}
+.footimg{
+    padding-top:20px;
+}
